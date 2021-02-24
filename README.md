@@ -117,13 +117,13 @@ DCGAN 에서 겨우 128x128 크기 해상도의 얼굴이밎 생성이 가능했
 https://www.aihub.or.kr/
 
 
-> Skill Set
+## Skill Set
 * GAN 알고리즘 활용
 * Python
 * Pytorch
 * Activation Function
 
-> 구동방법
+## 구동방법
 * VSCODE
 * cuda
 * Nvidia
