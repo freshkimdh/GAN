@@ -3,32 +3,37 @@
 
 ## GAN의 역사
 
-GAN (Generative Adversarial Network)
+* GAN (Generative Adversarial Network)
 
-CGAN (Conditional Generative Adversarial Network)
+* CGAN (Conditional Generative Adversarial Network)
 
-DCGAN (Deep Convolutional Generative Adversarial Network)
+* DCGAN (Deep Convolutional Generative Adversarial Network)
 
-CoGAN (Coupled Generative Adversarial Networks)
+* CoGAN (Coupled Generative Adversarial Networks)
 
-Pix2pix
+* Pix2pix
 
-WGAN (Wasserstein Generative Adversarial Network)
+* WGAN (Wasserstein Generative Adversarial Network)
 
-CycleGAN
+* CycleGAN
 
-StackGAN (Stack Generative Adversarial Network)
+* StackGAN (Stack Generative Adversarial Network)
 
-ProGAN (Progressive Growing of Generative Adversarial Network)
+* ProGAN (Progressive Growing of Generative Adversarial Network)
 
-SAGAN (Self-Attention Generative Adversarial Network)
+* SAGAN (Self-Attention Generative Adversarial Network)
 
-BigGAN (Big Generative Adversarial Network)
+* BigGAN (Big Generative Adversarial Network)
 
-StyleGAN (Style-based Generative Adversarial Network)
+* StyleGAN (Style-based Generative Adversarial Network)
 
 
-## 프로젝트에 사용할 GAN 
+## 프로젝트에 활용되는 GAN 알고리즘
+* DCGAN
+* CycleGAN
+* ProGAN
+* StyleGAN
+* StarGAN
 
 
 ## GAN
@@ -37,18 +42,6 @@ StyleGAN (Style-based Generative Adversarial Network)
 사람이 보기에 진짜와 구분하기 힘들 정도로 정교한 가짜 이미지를 만들어 내는 기술
 
 ![그림1](https://user-images.githubusercontent.com/65889898/108954892-bc46a480-76b0-11eb-88cb-fafa53391872.png)
-
-
-
-
-## CGAN (Conditional GAN)
-
-어떤 조건의 원래 이미지를 생성하는 것
-대표적으로 pix2pix 이며 이미지 사이의 스타일을 변환하는 방법 입니다.
-
-
-
-
 
 
 ## DCGAN
@@ -65,14 +58,8 @@ GAN의 생성 신경말 구조에서 노이즈를 확장시키는데 있어서 �
 
 이미지 연산이 가능함을 보여줬습니다.
 
-
-
 ![20210224150832](https://user-images.githubusercontent.com/65889898/108955854-2dd32280-76b2-11eb-86f6-e4990f2ee3fa.jpg)
 
-
-## BEGAN
-
-## Pix2Pix
 
 ## ProGAN (Progressive growing)
 
@@ -87,17 +74,9 @@ DCGAN 에서 겨우 128x128 크기 해상도의 얼굴이밎 생성이 가능했
 ![20210224154003](https://user-images.githubusercontent.com/65889898/108958642-97553000-76b6-11eb-9c64-289e8909967e.jpg)
 
 
-
-## SinGAN
-
-
-## LostGAN
-
-
-## SRGAN
-
-
 ## StyleGAN
+
+내용입력
 
 
 ## StarGAN
@@ -107,7 +86,6 @@ DCGAN 에서 겨우 128x128 크기 해상도의 얼굴이밎 생성이 가능했
 사용자가 사람의 머리색 또는 피부색과 같이 단 한 개만 변화시키고 싶을 떄 사용할 수 있는 기술이다.
 
 ![20210224155841](https://user-images.githubusercontent.com/65889898/108960394-2f541900-76b9-11eb-810b-7bc0ac84ae36.jpg)
-
 
 
 ## Train Dataset
@@ -122,6 +100,7 @@ https://www.aihub.or.kr/
 * Python
 * Pytorch
 * Activation Function
+
 
 ## 구동방법
 * VSCODE
