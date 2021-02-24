@@ -1,5 +1,34 @@
-# GAN
+# GAN을 활용한 이미지 생성
 한국인 얼굴 생성 프로젝트
+
+## GAN의 역사
+
+GAN (Generative Adversarial Network)
+
+CGAN (Conditional Generative Adversarial Network)
+
+DCGAN (Deep Convolutional Generative Adversarial Network)
+
+CoGAN (Coupled Generative Adversarial Networks)
+
+Pix2pix
+
+WGAN (Wasserstein Generative Adversarial Network)
+
+CycleGAN
+
+StackGAN (Stack Generative Adversarial Network)
+
+ProGAN (Progressive Growing of Generative Adversarial Network)
+
+SAGAN (Self-Attention Generative Adversarial Network)
+
+BigGAN (Big Generative Adversarial Network)
+
+StyleGAN (Style-based Generative Adversarial Network)
+
+
+## 프로젝트에 사용할 GAN 
 
 
 ## GAN
@@ -12,7 +41,15 @@
 
 
 
-## CGAN
+## CGAN (Conditional GAN)
+
+어떤 조건의 원래 이미지를 생성하는 것
+대표적으로 pix2pix 이며 이미지 사이의 스타일을 변환하는 방법 입니다.
+
+
+
+
+
 
 ## DCGAN
 
@@ -73,15 +110,24 @@ DCGAN 에서 겨우 128x128 크기 해상도의 얼굴이밎 생성이 가능했
 
 
 
-> 프로젝트
+## Train Dataset
+
+한국 AI-HUB 한국인 이미지 활용
+
+https://www.aihub.or.kr/
 
 
 > Skill Set
-* VSCODE
-* 
-
->설치 방법
-
-
+* GAN 알고리즘 활용
+* Python
+* Pytorch
+* Activation Function
 
 > 구동방법
+* VSCODE
+* cuda
+* Nvidia
+
+
+참고문헌
+https://engineer-mole.tistory.com/42 [매일 꾸준히, 더 깊이]
