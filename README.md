@@ -61,6 +61,24 @@ GAN의 생성 신경말 구조에서 노이즈를 확장시키는데 있어서 �
 
 ![20210224150832](https://user-images.githubusercontent.com/65889898/108955854-2dd32280-76b2-11eb-86f6-e4990f2ee3fa.jpg)
 
+### CycleGAN
+
+CycleGAN을 이용하였을 때 Input image 를 넣으면 Output은 이미지를 아래 이미지 처럼 얻을 수 있다.
+
+Input 이미지를 모네, 반 고흐와 같은 아티스트들의 그림 스타일로 바꾸거나, 
+
+말을 얼룩말로, 사과를 오렌지로, 오렌지를 사과로, 아이폰 사진을 dslr로 초점을 변경한 결과물을 얻어낼 수 있다
+
+![img](https://user-images.githubusercontent.com/65889898/108974554-e86e1f80-76c8-11eb-9ec4-e34a95cfe210.png)
+
+Cycle GAN의 핵심은 사진의 스타일을 바꾸되, 다시 원본 이미지로 복구 가능한 정도로만 바꾸는 것이다. 
+
+즉, x도메인에서 y도메인으로의 단순 맵핑이 아니라, 다시 돌아오는 부분을 고려하여 input이미지로 잘 돌아올 수 있도록 제약조건을 거는 것이다.
+
+![20210224180906](https://user-images.githubusercontent.com/65889898/108977018-78ad6400-76cb-11eb-9599-2c5bbee021e6.jpg)
+
+
+![img](https://user-images.githubusercontent.com/65889898/108974554-e86e1f80-76c8-11eb-9ec4-e34a95cfe210.png)
 
 #### ProGAN (Progressive growing)
 
@@ -77,8 +95,11 @@ DCGAN 에서 겨우 128x128 크기 해상도의 얼굴이밎 생성이 가능했
 
 #### StyleGAN
 
-내용입력
+Pro GAN에서 발전된 기술이며, 사람의 머리 색, 나이, 성별 등을 네트워크가 분석하여 
 
+자유롭게 변형할 수 있다는 장점이 있습니다.
+
+![20210224175326](https://user-images.githubusercontent.com/65889898/108974850-35ea8c80-76c9-11eb-9087-956296a1f625.jpg)
 
 #### StarGAN
 
@@ -111,3 +132,4 @@ https://www.aihub.or.kr/
 
 참고문헌
 https://engineer-mole.tistory.com/42 [매일 꾸준히, 더 깊이]
+https://velog.io/@chy0428/CycleGAN#:~:text=%F0%9F%93%97%20Cycle%20GAN,-%EC%9C%84%EC%97%90%EC%84%9C%20%EC%96%B8%EA%B8%89%ED%95%9C&text=Cycle%20GAN%EC%9D%98%20%ED%95%B5%EC%8B%AC%EC%9D%80,%EC%A0%9C%EC%95%BD%EC%A1%B0%EA%B1%B4%EC%9D%84%20%EA%B1%B0%EB%8A%94%20%EA%B2%83%EC%9D%B4%EB%8B%A4.
