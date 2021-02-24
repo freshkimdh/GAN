@@ -29,12 +29,12 @@
 
 
 ## 2. 프로젝트에 활용되는 GAN 알고리즘
-GAN
-DCGAN
-CycleGAN
-ProGAN
-StyleGAN
-StarGAN
+* GAN
+* DCGAN
+* CycleGAN
+* ProGAN
+* StyleGAN
+* StarGAN
 
 
 #### GAN
