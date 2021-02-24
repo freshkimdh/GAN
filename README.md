@@ -133,5 +133,7 @@ https://www.aihub.or.kr/
 
 
 참고문헌
-https://engineer-mole.tistory.com/42 [매일 꾸준히, 더 깊이]
+
+https://engineer-mole.tistory.com/42 
+
 https://velog.io/@chy0428/CycleGAN#:~:text=%F0%9F%93%97%20Cycle%20GAN,-%EC%9C%84%EC%97%90%EC%84%9C%20%EC%96%B8%EA%B8%89%ED%95%9C&text=Cycle%20GAN%EC%9D%98%20%ED%95%B5%EC%8B%AC%EC%9D%80,%EC%A0%9C%EC%95%BD%EC%A1%B0%EA%B1%B4%EC%9D%84%20%EA%B1%B0%EB%8A%94%20%EA%B2%83%EC%9D%B4%EB%8B%A4.
