@@ -80,7 +80,6 @@ Cycle GAN의 핵심은 사진의 스타일을 바꾸되, 다시 원본 이미지
 ![20210224180906](https://user-images.githubusercontent.com/65889898/108977018-78ad6400-76cb-11eb-9599-2c5bbee021e6.jpg)
 
 
-![img](https://user-images.githubusercontent.com/65889898/108974554-e86e1f80-76c8-11eb-9ec4-e34a95cfe210.png)
 
 #### ProGAN (Progressive growing)
 
